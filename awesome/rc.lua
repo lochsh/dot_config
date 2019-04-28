@@ -304,7 +304,9 @@ globalkeys = gears.table.join(
               {description = "select next", group = "layout"}),
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1)                end,
               {description = "select previous", group = "layout"}),
-
+    -- Lock screen
+    awful.key({ "Mod4" }, "l",
+              function () awful.util.spawn("xscreensaver-command -lock") end),
     awful.key({ modkey, "Control" }, "n",
               function ()
                   local c = awful.client.restore()
