@@ -5,3 +5,4 @@ set -q XDG_DATA_HOME
 
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
+set -x FZF_DEFAULT_COMMAND 'fd --type file --hidden --no-ignore'
