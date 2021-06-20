@@ -8,11 +8,11 @@ local dpi = require("beautiful.xresources").apply_dpi
 
 -- {{{ Main
 local theme = {}
-theme.wallpaper = themes_path .. "zenburn/milky-way.png"
+theme.wallpaper = themes_path .. "zenburn/background.jpeg"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "sans 8"
+theme.font      = "sans 12"
 
 -- {{{ Colors
 theme.fg_normal  = "#DCDCCC"
