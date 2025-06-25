@@ -8,19 +8,19 @@ local dpi = require("beautiful.xresources").apply_dpi
 
 -- {{{ Main
 local theme = {}
-theme.wallpaper = themes_path .. "zenburn/background.jpeg"
+theme.wallpaper = themes_path .. "zenburn/nyan.png"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "sans 12"
+theme.font      = "Comic Code 12"
 
 -- {{{ Colors
-theme.fg_normal  = "#DCDCCC"
-theme.fg_focus   = "#F0DFAF"
-theme.fg_urgent  = "#CC9393"
-theme.bg_normal  = "#3F3F3F"
-theme.bg_focus   = "#1E2320"
-theme.bg_urgent  = "#3F3F3F"
+theme.fg_normal  = "#a7b1cf"
+theme.fg_focus   = "#8695c4"
+theme.fg_urgent  = "#f097c8"
+theme.bg_normal  = "#2e313b"
+theme.bg_focus   = "#121317"
+theme.bg_urgent  = "#c2d0ff"
 theme.bg_systray = theme.bg_normal
 -- }}}
 
@@ -79,7 +79,7 @@ theme.taglist_squares_unsel = themes_path .. "zenburn/taglist/squarez.png"
 -- }}}
 
 -- {{{ Misc
-theme.awesome_icon           = themes_path .. "zenburn/awesome-icon.png"
+theme.awesome_icon           = themes_path .. "zenburn/nyan-icon.jpeg"
 theme.menu_submenu_icon      = themes_path .. "default/submenu.png"
 -- }}}
 
